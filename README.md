@@ -1,5 +1,3 @@
-# Bond Tax Support — RAG Chatbot
-
 A Flask-based RAG (Retrieval-Augmented Generation) chatbot for customer support associates at an online bond brokerage platform. It answers bond taxation queries using a Neon Postgres knowledge base and a local AI model (Ollama or LM Studio).
 
 ---
