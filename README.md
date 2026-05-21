@@ -54,7 +54,7 @@ This upserts all 20 chunk files into the `rag_chunks` table in Neon Postgres.
 python app.py
 ```
 
-Visit: http://localhost:5000
+Visit: http://localhost:1707
 
 ---
 
@@ -100,13 +100,3 @@ The app uses the `rag_chunks` table with full-text search via a `tsvector` colum
 - `search_vector` — auto-generated from `search_text`
 - `ts_rank()` used for relevance scoring
 - GIN indexes for fast search
-
----
-
-## Health Check
-
-```
-GET /api/health
-```
-
-Returns DB connection status and available providers.
